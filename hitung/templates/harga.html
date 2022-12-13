@@ -1,0 +1,36 @@
+{%extends 'base2.html'%} {% load static %} {%block content%} <br /><br />
+<center>
+  
+   <div class="navbar">
+  <div class="row">
+    <div class="column">
+      <a href="{% url 'menu:menu' %}"><img src="{%static 'images/back.png'%}" alt="" id="back"></a>
+      <br />
+    </div>
+    <div class="column">
+      <h4>Daftar Harga bata</h4>
+      <br />
+    </div>
+    <div class="column">
+      <img src="{%static 'images/icon.png'%}" alt="" id="back">
+      <br />
+    </div>
+  </div>
+  </div>
+  <br />
+  
+  <br />
+  <div style="text-align: left;">
+    <p>**Harga bata hanya untuk patokan awal, harga <b>berbeda-beda</b> di setiap tempat.</p>
+  <h3 >Bata Merah</h3>
+  <p >1. Bata merah hias: Rp 1.200 per buah<br>2. Bata merah standar: Rp 725 per buah <br>3. Bata merah oven: Rp 900 per buah<br>&nbsp;&nbsp;&nbsp;&nbsp;Data diambil dari: www.99.co</p>
+  <h3 >Bata Ekspos/ Bata Tempel</h3>
+  <p >1. Terracota Biasa: Rp 2.000 per buah<br>2. Terracota Super: Rp 2.750 per buah <br>3. Tempet Alur/Bevel/Cadas: Rp. 4.000 per buah<br>&nbsp;&nbsp;&nbsp;&nbsp;Data diambil dari: www.www.99.co</p>
+    <h3 >Bata Ringan</h3>
+  <p >1. Bata ringan terbaik: Rp 9.000 per buah<br>2. Bata ringan grade A+: Rp 6.500 per buah <br>3. Bata ringan grade A: Rp 5.000 per buah<br>&nbsp;&nbsp;&nbsp;&nbsp;Data diambil dari: www.99.co</p>
+  <h3 >Batako</h3>
+  <p >1. Batako press: Rp 1.500 per buah<br>2. Batako hitam press: Rp 1.750 per buah <br>&nbsp;&nbsp;&nbsp;&nbsp;Data diambil dari: www.lamudi.co.id</p>
+    </div>
+</center>
+</script>
+{%endblock%}
